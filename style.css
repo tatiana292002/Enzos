@@ -583,17 +583,33 @@ p {
     bottom: 20px;
     right: 20px;
     z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
     transition: transform 0.3s;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .whatsapp-btn:hover {
     transform: scale(1.1);
+    background-color: #128C7E;
 }
 
 .whatsapp-logo {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
 }
+
 
 
 .brands-row {
